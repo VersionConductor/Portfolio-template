@@ -1,0 +1,31 @@
+
+h1, h3 {
+    color: #007bff;
+}
+
+.lead {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.list-group-item {
+    background-color: #e9ecef;
+    border: none;
+}
+
+.skill {
+    margin-bottom: 5px;
+}
+
+.skill-title {
+    font-weight: bold;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #4a90e2;
+}

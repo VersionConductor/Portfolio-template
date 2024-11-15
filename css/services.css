@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.services-section {
+    background-image: url("../images/services/services.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 60px 0;
+}
+
+.service-card {
+    transition: transform 0.3s;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.project-section {
+    padding: 60px 0;
+    /* background-color: #ffffff; */
+}
+
+.project-card {
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}

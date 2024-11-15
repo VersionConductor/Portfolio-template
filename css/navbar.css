@@ -1,0 +1,33 @@
+:root {
+    --size: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    color: #fff;
+}
+
+.light-dark {
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    text-align: center;
+    background: #1f89c7;
+    line-height: 30px;
+    margin: 0 10px;
+}
+
+.hover:hover {
+    text-decoration: underline 2px #d3d00d;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+.font_size {
+    font-size: 13px;
+}
